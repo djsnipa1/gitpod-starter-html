@@ -1,0 +1,13 @@
+tasks:
+  - init: npm install
+    command: npm run serve-gitpod
+
+ports:
+ - port: 3000
+   onOpen: open-preview
+ - port: 3001
+   onOpen: ignore
+
+vscode:
+  extensions:
+    - gulajavaministudio.mayukaithemevsc
