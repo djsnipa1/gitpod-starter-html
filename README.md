@@ -1,6 +1,6 @@
 # gitpod-starter-html
 
-If you want to use foldera and preview the html inside of them, you will need to change the `package.json` file like this:
+If you want to use a folder and preview the html inside of them, you will need to change the `package.json` file like this:
 
 ```json
 "scripts": {
